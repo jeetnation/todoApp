@@ -1,14 +1,14 @@
 package main
 
-impor{
+import (
 	"fmt"
 	"log"
 	"net/http"
-	"GOLANG-React-TODO/router"
-}
 
+	"github.com/jeetnation/todoApp/router"
+)
 
-func main(){
+func main() {
 	r := router.Router()
 	fmt.Println("starting the server on Port 9000")
 
